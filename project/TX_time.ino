@@ -40,7 +40,7 @@ void setup() {
   radio.powerUp();        // начать работу
   radio.stopListening();  // не слушаем радиоэфир, мы передатчик
 }
-
+#проверка изменений
 void loop(void) {
   byte gotByte;
   // Serial.print("Sending... ");
@@ -73,3 +73,4 @@ void loop(void) {
   }
   delay(1000);
 }
+#proverka6
